@@ -7,7 +7,8 @@
 //
 
 #import "AppDelegate.h"
-#import "ViewController.h"
+#import "ZHGTabBarController.h"
+
 @interface AppDelegate ()
 
 @end
@@ -19,7 +20,12 @@
 
     self.window = [[UIWindow alloc] init];
     self.window.frame = [UIScreen mainScreen].bounds;
-    self.window.rootViewController = [[ViewController alloc] init];
+    
+    ZHGTabBarController *tabBarController = [[ZHGTabBarController alloc] init];
+    
+    
+    
+    self.window.rootViewController = tabBarController;
     [self.window makeKeyAndVisible];
     
     return YES;

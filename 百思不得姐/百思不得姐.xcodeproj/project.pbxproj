@@ -9,10 +9,10 @@
 /* Begin PBXBuildFile section */
 		1F99C4C21E3257CF00CCFD75 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F99C4C11E3257CF00CCFD75 /* main.m */; };
 		1F99C4C51E3257CF00CCFD75 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F99C4C41E3257CF00CCFD75 /* AppDelegate.m */; };
-		1F99C4C81E3257CF00CCFD75 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F99C4C71E3257CF00CCFD75 /* ViewController.m */; };
 		1F99C4CD1E3257CF00CCFD75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F99C4CC1E3257CF00CCFD75 /* Assets.xcassets */; };
 		1F99C4DB1E3257CF00CCFD75 /* _____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F99C4DA1E3257CF00CCFD75 /* _____Tests.m */; };
 		1F99C4E61E3257CF00CCFD75 /* _____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F99C4E51E3257CF00CCFD75 /* _____UITests.m */; };
+		1F99C4F51E325F9E00CCFD75 /* ZHGTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F99C4F41E325F9E00CCFD75 /* ZHGTabBarController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +37,6 @@
 		1F99C4C11E3257CF00CCFD75 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1F99C4C31E3257CF00CCFD75 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1F99C4C41E3257CF00CCFD75 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1F99C4C61E3257CF00CCFD75 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		1F99C4C71E3257CF00CCFD75 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		1F99C4CC1E3257CF00CCFD75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1F99C4D11E3257CF00CCFD75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1F99C4D61E3257CF00CCFD75 /* 百思不得姐Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "百思不得姐Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +45,8 @@
 		1F99C4E11E3257CF00CCFD75 /* 百思不得姐UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "百思不得姐UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F99C4E51E3257CF00CCFD75 /* _____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____UITests.m"; sourceTree = "<group>"; };
 		1F99C4E71E3257CF00CCFD75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F99C4F31E325F9E00CCFD75 /* ZHGTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHGTabBarController.h; sourceTree = "<group>"; };
+		1F99C4F41E325F9E00CCFD75 /* ZHGTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHGTabBarController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,8 +99,8 @@
 			children = (
 				1F99C4C31E3257CF00CCFD75 /* AppDelegate.h */,
 				1F99C4C41E3257CF00CCFD75 /* AppDelegate.m */,
-				1F99C4C61E3257CF00CCFD75 /* ViewController.h */,
-				1F99C4C71E3257CF00CCFD75 /* ViewController.m */,
+				1F99C4F31E325F9E00CCFD75 /* ZHGTabBarController.h */,
+				1F99C4F41E325F9E00CCFD75 /* ZHGTabBarController.m */,
 				1F99C4CC1E3257CF00CCFD75 /* Assets.xcassets */,
 				1F99C4D11E3257CF00CCFD75 /* Info.plist */,
 				1F99C4C01E3257CF00CCFD75 /* Supporting Files */,
@@ -196,6 +196,7 @@
 		1F99C4B51E3257CF00CCFD75 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = ZHG;
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "王忠光";
 				TargetAttributes = {
@@ -266,8 +267,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F99C4C81E3257CF00CCFD75 /* ViewController.m in Sources */,
 				1F99C4C51E3257CF00CCFD75 /* AppDelegate.m in Sources */,
+				1F99C4F51E325F9E00CCFD75 /* ZHGTabBarController.m in Sources */,
 				1F99C4C21E3257CF00CCFD75 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
