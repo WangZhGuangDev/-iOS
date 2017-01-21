@@ -12,14 +12,14 @@
 		1F99C4CD1E3257CF00CCFD75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F99C4CC1E3257CF00CCFD75 /* Assets.xcassets */; };
 		1F99C4DB1E3257CF00CCFD75 /* _____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F99C4DA1E3257CF00CCFD75 /* _____Tests.m */; };
 		1F99C4E61E3257CF00CCFD75 /* _____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F99C4E51E3257CF00CCFD75 /* _____UITests.m */; };
-		1F9CB9201E333F89006E75CE /* ZHGEssenceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9CB9171E333F89006E75CE /* ZHGEssenceController.m */; };
-		1F9CB9211E333F89006E75CE /* ZHGMeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9CB9191E333F89006E75CE /* ZHGMeController.m */; };
-		1F9CB9221E333F89006E75CE /* ZHGNewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9CB91B1E333F89006E75CE /* ZHGNewController.m */; };
 		1F9CB9231E333F89006E75CE /* ZHGTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9CB91D1E333F89006E75CE /* ZHGTabBarController.m */; };
-		1F9CB9241E333F89006E75CE /* ZHGTrendController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9CB91F1E333F89006E75CE /* ZHGTrendController.m */; };
 		1F9CB92D1E3344CA006E75CE /* ZHGTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9CB92C1E3344CA006E75CE /* ZHGTabBar.m */; };
 		1F9CB9311E3350C2006E75CE /* UIView+ZHGViewCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9CB9301E3350C2006E75CE /* UIView+ZHGViewCategory.m */; };
 		1F9CB9361E3365E8006E75CE /* UIBarButtonItem+ZHGBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9CB9351E3365E8006E75CE /* UIBarButtonItem+ZHGBarButtonItem.m */; };
+		1F9CB9501E336DEA006E75CE /* ZHGEssenceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9CB94F1E336DEA006E75CE /* ZHGEssenceController.m */; };
+		1F9CB9531E336E0D006E75CE /* ZHGNewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9CB9521E336E0D006E75CE /* ZHGNewController.m */; };
+		1F9CB9561E336E18006E75CE /* ZHGTrendController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9CB9551E336E18006E75CE /* ZHGTrendController.m */; };
+		1F9CB95B1E336E2B006E75CE /* ZHGMeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9CB9581E336E2B006E75CE /* ZHGMeController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,16 +52,8 @@
 		1F99C4E11E3257CF00CCFD75 /* 百思不得姐UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "百思不得姐UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F99C4E51E3257CF00CCFD75 /* _____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____UITests.m"; sourceTree = "<group>"; };
 		1F99C4E71E3257CF00CCFD75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1F9CB9161E333F89006E75CE /* ZHGEssenceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHGEssenceController.h; sourceTree = "<group>"; };
-		1F9CB9171E333F89006E75CE /* ZHGEssenceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHGEssenceController.m; sourceTree = "<group>"; };
-		1F9CB9181E333F89006E75CE /* ZHGMeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHGMeController.h; sourceTree = "<group>"; };
-		1F9CB9191E333F89006E75CE /* ZHGMeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHGMeController.m; sourceTree = "<group>"; };
-		1F9CB91A1E333F89006E75CE /* ZHGNewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHGNewController.h; sourceTree = "<group>"; };
-		1F9CB91B1E333F89006E75CE /* ZHGNewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHGNewController.m; sourceTree = "<group>"; };
 		1F9CB91C1E333F89006E75CE /* ZHGTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHGTabBarController.h; sourceTree = "<group>"; };
 		1F9CB91D1E333F89006E75CE /* ZHGTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHGTabBarController.m; sourceTree = "<group>"; };
-		1F9CB91E1E333F89006E75CE /* ZHGTrendController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHGTrendController.h; sourceTree = "<group>"; };
-		1F9CB91F1E333F89006E75CE /* ZHGTrendController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHGTrendController.m; sourceTree = "<group>"; };
 		1F9CB92B1E3344CA006E75CE /* ZHGTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHGTabBar.h; sourceTree = "<group>"; };
 		1F9CB92C1E3344CA006E75CE /* ZHGTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHGTabBar.m; sourceTree = "<group>"; };
 		1F9CB92F1E3350C2006E75CE /* UIView+ZHGViewCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ZHGViewCategory.h"; sourceTree = "<group>"; };
@@ -69,6 +61,14 @@
 		1F9CB9331E33529D006E75CE /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		1F9CB9341E3365E8006E75CE /* UIBarButtonItem+ZHGBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+ZHGBarButtonItem.h"; sourceTree = "<group>"; };
 		1F9CB9351E3365E8006E75CE /* UIBarButtonItem+ZHGBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+ZHGBarButtonItem.m"; sourceTree = "<group>"; };
+		1F9CB94E1E336DEA006E75CE /* ZHGEssenceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHGEssenceController.h; sourceTree = "<group>"; };
+		1F9CB94F1E336DEA006E75CE /* ZHGEssenceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHGEssenceController.m; sourceTree = "<group>"; };
+		1F9CB9511E336E0D006E75CE /* ZHGNewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHGNewController.h; sourceTree = "<group>"; };
+		1F9CB9521E336E0D006E75CE /* ZHGNewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHGNewController.m; sourceTree = "<group>"; };
+		1F9CB9541E336E18006E75CE /* ZHGTrendController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHGTrendController.h; sourceTree = "<group>"; };
+		1F9CB9551E336E18006E75CE /* ZHGTrendController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHGTrendController.m; sourceTree = "<group>"; };
+		1F9CB9571E336E2B006E75CE /* ZHGMeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHGMeController.h; sourceTree = "<group>"; };
+		1F9CB9581E336E2B006E75CE /* ZHGMeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHGMeController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +119,7 @@
 		1F99C4BF1E3257CF00CCFD75 /* 百思不得姐 */ = {
 			isa = PBXGroup;
 			children = (
+				1F9CB9371E336B5E006E75CE /* Classes */,
 				1F9CB9321E3351E3006E75CE /* PublicClass */,
 				1F9CB92E1E335074006E75CE /* UIViewCategory */,
 				1F9CB9151E333F13006E75CE /* TabBarController */,
@@ -160,14 +161,6 @@
 		1F9CB9151E333F13006E75CE /* TabBarController */ = {
 			isa = PBXGroup;
 			children = (
-				1F9CB9161E333F89006E75CE /* ZHGEssenceController.h */,
-				1F9CB9171E333F89006E75CE /* ZHGEssenceController.m */,
-				1F9CB91A1E333F89006E75CE /* ZHGNewController.h */,
-				1F9CB91B1E333F89006E75CE /* ZHGNewController.m */,
-				1F9CB91E1E333F89006E75CE /* ZHGTrendController.h */,
-				1F9CB91F1E333F89006E75CE /* ZHGTrendController.m */,
-				1F9CB9181E333F89006E75CE /* ZHGMeController.h */,
-				1F9CB9191E333F89006E75CE /* ZHGMeController.m */,
 				1F9CB91C1E333F89006E75CE /* ZHGTabBarController.h */,
 				1F9CB91D1E333F89006E75CE /* ZHGTabBarController.m */,
 				1F9CB92B1E3344CA006E75CE /* ZHGTabBar.h */,
@@ -193,6 +186,181 @@
 				1F9CB9331E33529D006E75CE /* PrefixHeader.pch */,
 			);
 			path = PublicClass;
+			sourceTree = "<group>";
+		};
+		1F9CB9371E336B5E006E75CE /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1F9CB9381E336B88006E75CE /* Essence */,
+				1F9CB9391E336BD0006E75CE /* NewPost */,
+				1F9CB93A1E336C34006E75CE /* Trend */,
+				1F9CB93B1E336C45006E75CE /* MyPage */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		1F9CB9381E336B88006E75CE /* Essence */ = {
+			isa = PBXGroup;
+			children = (
+				1F9CB93C1E336CD3006E75CE /* Controller */,
+				1F9CB93D1E336CF2006E75CE /* View */,
+				1F9CB93F1E336D0D006E75CE /* Cell */,
+				1F9CB93E1E336D00006E75CE /* Model */,
+			);
+			path = Essence;
+			sourceTree = "<group>";
+		};
+		1F9CB9391E336BD0006E75CE /* NewPost */ = {
+			isa = PBXGroup;
+			children = (
+				1F9CB9441E336D7D006E75CE /* Controller */,
+				1F9CB9431E336D76006E75CE /* View */,
+				1F9CB9421E336D69006E75CE /* Cell */,
+				1F9CB9401E336D58006E75CE /* Model */,
+			);
+			path = NewPost;
+			sourceTree = "<group>";
+		};
+		1F9CB93A1E336C34006E75CE /* Trend */ = {
+			isa = PBXGroup;
+			children = (
+				1F9CB9491E336D9C006E75CE /* Controller */,
+				1F9CB9481E336D9A006E75CE /* View */,
+				1F9CB9461E336D91006E75CE /* Cell */,
+				1F9CB9451E336D89006E75CE /* Model */,
+			);
+			path = Trend;
+			sourceTree = "<group>";
+		};
+		1F9CB93B1E336C45006E75CE /* MyPage */ = {
+			isa = PBXGroup;
+			children = (
+				1F9CB94D1E336DA9006E75CE /* Cotroller */,
+				1F9CB94C1E336DA7006E75CE /* View */,
+				1F9CB94B1E336DA5006E75CE /* Cell */,
+				1F9CB94A1E336DA3006E75CE /* Model */,
+			);
+			path = MyPage;
+			sourceTree = "<group>";
+		};
+		1F9CB93C1E336CD3006E75CE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1F9CB94E1E336DEA006E75CE /* ZHGEssenceController.h */,
+				1F9CB94F1E336DEA006E75CE /* ZHGEssenceController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		1F9CB93D1E336CF2006E75CE /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		1F9CB93E1E336D00006E75CE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		1F9CB93F1E336D0D006E75CE /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
+		1F9CB9401E336D58006E75CE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		1F9CB9421E336D69006E75CE /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
+		1F9CB9431E336D76006E75CE /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		1F9CB9441E336D7D006E75CE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1F9CB9511E336E0D006E75CE /* ZHGNewController.h */,
+				1F9CB9521E336E0D006E75CE /* ZHGNewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		1F9CB9451E336D89006E75CE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		1F9CB9461E336D91006E75CE /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
+		1F9CB9481E336D9A006E75CE /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		1F9CB9491E336D9C006E75CE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1F9CB9541E336E18006E75CE /* ZHGTrendController.h */,
+				1F9CB9551E336E18006E75CE /* ZHGTrendController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		1F9CB94A1E336DA3006E75CE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		1F9CB94B1E336DA5006E75CE /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
+		1F9CB94C1E336DA7006E75CE /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		1F9CB94D1E336DA9006E75CE /* Cotroller */ = {
+			isa = PBXGroup;
+			children = (
+				1F9CB9571E336E2B006E75CE /* ZHGMeController.h */,
+				1F9CB9581E336E2B006E75CE /* ZHGMeController.m */,
+			);
+			name = Cotroller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -328,16 +496,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F9CB9561E336E18006E75CE /* ZHGTrendController.m in Sources */,
+				1F9CB9531E336E0D006E75CE /* ZHGNewController.m in Sources */,
 				1F99C4C51E3257CF00CCFD75 /* AppDelegate.m in Sources */,
 				1F9CB9231E333F89006E75CE /* ZHGTabBarController.m in Sources */,
-				1F9CB9241E333F89006E75CE /* ZHGTrendController.m in Sources */,
 				1F9CB92D1E3344CA006E75CE /* ZHGTabBar.m in Sources */,
-				1F9CB9201E333F89006E75CE /* ZHGEssenceController.m in Sources */,
 				1F99C4C21E3257CF00CCFD75 /* main.m in Sources */,
 				1F9CB9311E3350C2006E75CE /* UIView+ZHGViewCategory.m in Sources */,
+				1F9CB95B1E336E2B006E75CE /* ZHGMeController.m in Sources */,
 				1F9CB9361E3365E8006E75CE /* UIBarButtonItem+ZHGBarButtonItem.m in Sources */,
-				1F9CB9211E333F89006E75CE /* ZHGMeController.m in Sources */,
-				1F9CB9221E333F89006E75CE /* ZHGNewController.m in Sources */,
+				1F9CB9501E336DEA006E75CE /* ZHGEssenceController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
