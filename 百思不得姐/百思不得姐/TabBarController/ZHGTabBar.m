@@ -21,8 +21,6 @@
         UIButton *addButton = [UIButton buttonWithType:(UIButtonTypeCustom)];
         [addButton setBackgroundImage:[UIImage imageNamed:@"tabBar_publish_icon"] forState:(UIControlStateNormal)];
         [addButton setBackgroundImage:[UIImage imageNamed:@"tabBar_publish_click_icon"] forState:(UIControlStateHighlighted)];
-//        addButton.bounds = CGRectMake(0, 0, addButton.currentBackgroundImage.size.width, addButton.currentBackgroundImage.size.height);
-//        addButton.center = CGPointMake(self.frame.size.width * 0.5, self.frame.size.height * 0.5);
         [self addSubview:addButton];
         self.publicButton = addButton;
     }
@@ -32,20 +30,25 @@
 -(void)layoutSubviews {
     [super layoutSubviews];
     
-    self.publicButton.frame = CGRectMake(0, 0, self.publicButton.currentBackgroundImage.size.width, self.publicButton.currentBackgroundImage.size.height);
-    self.publicButton.center = CGPointMake(self.frame.size.width * 0.5, self.frame.size.height * 0.5);
+    //利用UIView的分类
+    CGFloat width = self.width;
+    CGFloat height = self.height;
+    
+    self.publicButton.width = self.publicButton.currentBackgroundImage.size.width;
+    self.publicButton.height = self.publicButton.currentBackgroundImage.size.height;
+    self.publicButton.center = CGPointMake(width * 0.5, height * 0.5);
     
     CGFloat buttonY = 0;
-    CGFloat buttonW = self.frame.size.width / 5;
-    CGFloat buttonH = self.frame.size.height;
+    CGFloat buttonW = width / 5;
+    CGFloat buttonH = height;
     NSInteger index = 0;
     for (UIView *button in self.subviews) {
         if (![button isKindOfClass:NSClassFromString(@"UITabBarButton")])
             continue;
         
-            CGFloat buttonX = buttonW * ((index > 1) ? (index + 1) : index);
-            button.frame = CGRectMake(buttonX, buttonY, buttonW, buttonH);
-            index++;
+        CGFloat buttonX = buttonW * ((index > 1) ? (index + 1) : index);
+        button.frame = CGRectMake(buttonX, buttonY, buttonW, buttonH);
+        index++;
     }
 }
 

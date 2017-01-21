@@ -18,6 +18,7 @@
 		1F9CB9231E333F89006E75CE /* ZHGTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9CB91D1E333F89006E75CE /* ZHGTabBarController.m */; };
 		1F9CB9241E333F89006E75CE /* ZHGTrendController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9CB91F1E333F89006E75CE /* ZHGTrendController.m */; };
 		1F9CB92D1E3344CA006E75CE /* ZHGTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9CB92C1E3344CA006E75CE /* ZHGTabBar.m */; };
+		1F9CB9311E3350C2006E75CE /* UIView+ZHGViewCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9CB9301E3350C2006E75CE /* UIView+ZHGViewCategory.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,9 @@
 		1F9CB91F1E333F89006E75CE /* ZHGTrendController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHGTrendController.m; sourceTree = "<group>"; };
 		1F9CB92B1E3344CA006E75CE /* ZHGTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHGTabBar.h; sourceTree = "<group>"; };
 		1F9CB92C1E3344CA006E75CE /* ZHGTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHGTabBar.m; sourceTree = "<group>"; };
+		1F9CB92F1E3350C2006E75CE /* UIView+ZHGViewCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ZHGViewCategory.h"; sourceTree = "<group>"; };
+		1F9CB9301E3350C2006E75CE /* UIView+ZHGViewCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ZHGViewCategory.m"; sourceTree = "<group>"; };
+		1F9CB9331E33529D006E75CE /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +116,8 @@
 		1F99C4BF1E3257CF00CCFD75 /* 百思不得姐 */ = {
 			isa = PBXGroup;
 			children = (
+				1F9CB9321E3351E3006E75CE /* PublicClass */,
+				1F9CB92E1E335074006E75CE /* UIViewCategory */,
 				1F9CB9151E333F13006E75CE /* TabBarController */,
 				1F99C4C31E3257CF00CCFD75 /* AppDelegate.h */,
 				1F99C4C41E3257CF00CCFD75 /* AppDelegate.m */,
@@ -165,6 +171,23 @@
 				1F9CB92C1E3344CA006E75CE /* ZHGTabBar.m */,
 			);
 			path = TabBarController;
+			sourceTree = "<group>";
+		};
+		1F9CB92E1E335074006E75CE /* UIViewCategory */ = {
+			isa = PBXGroup;
+			children = (
+				1F9CB92F1E3350C2006E75CE /* UIView+ZHGViewCategory.h */,
+				1F9CB9301E3350C2006E75CE /* UIView+ZHGViewCategory.m */,
+			);
+			path = UIViewCategory;
+			sourceTree = "<group>";
+		};
+		1F9CB9321E3351E3006E75CE /* PublicClass */ = {
+			isa = PBXGroup;
+			children = (
+				1F9CB9331E33529D006E75CE /* PrefixHeader.pch */,
+			);
+			path = PublicClass;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -306,6 +329,7 @@
 				1F9CB92D1E3344CA006E75CE /* ZHGTabBar.m in Sources */,
 				1F9CB9201E333F89006E75CE /* ZHGEssenceController.m in Sources */,
 				1F99C4C21E3257CF00CCFD75 /* main.m in Sources */,
+				1F9CB9311E3350C2006E75CE /* UIView+ZHGViewCategory.m in Sources */,
 				1F9CB9211E333F89006E75CE /* ZHGMeController.m in Sources */,
 				1F9CB9221E333F89006E75CE /* ZHGNewController.m in Sources */,
 			);
@@ -439,6 +463,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = 9N6P88TN8F;
+				GCC_PREFIX_HEADER = "百思不得姐/PublicClass/PrefixHeader.pch";
 				INFOPLIST_FILE = "百思不得姐/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -453,6 +478,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = 9N6P88TN8F;
+				GCC_PREFIX_HEADER = "百思不得姐/PublicClass/PrefixHeader.pch";
 				INFOPLIST_FILE = "百思不得姐/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
