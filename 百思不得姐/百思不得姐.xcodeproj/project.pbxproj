@@ -12,7 +12,11 @@
 		1F99C4CD1E3257CF00CCFD75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F99C4CC1E3257CF00CCFD75 /* Assets.xcassets */; };
 		1F99C4DB1E3257CF00CCFD75 /* _____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F99C4DA1E3257CF00CCFD75 /* _____Tests.m */; };
 		1F99C4E61E3257CF00CCFD75 /* _____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F99C4E51E3257CF00CCFD75 /* _____UITests.m */; };
-		1F99C4F51E325F9E00CCFD75 /* ZHGTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F99C4F41E325F9E00CCFD75 /* ZHGTabBarController.m */; };
+		1F9CB9201E333F89006E75CE /* ZHGEssenceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9CB9171E333F89006E75CE /* ZHGEssenceController.m */; };
+		1F9CB9211E333F89006E75CE /* ZHGMeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9CB9191E333F89006E75CE /* ZHGMeController.m */; };
+		1F9CB9221E333F89006E75CE /* ZHGNewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9CB91B1E333F89006E75CE /* ZHGNewController.m */; };
+		1F9CB9231E333F89006E75CE /* ZHGTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9CB91D1E333F89006E75CE /* ZHGTabBarController.m */; };
+		1F9CB9241E333F89006E75CE /* ZHGTrendController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9CB91F1E333F89006E75CE /* ZHGTrendController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,8 +49,16 @@
 		1F99C4E11E3257CF00CCFD75 /* 百思不得姐UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "百思不得姐UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F99C4E51E3257CF00CCFD75 /* _____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____UITests.m"; sourceTree = "<group>"; };
 		1F99C4E71E3257CF00CCFD75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1F99C4F31E325F9E00CCFD75 /* ZHGTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHGTabBarController.h; sourceTree = "<group>"; };
-		1F99C4F41E325F9E00CCFD75 /* ZHGTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHGTabBarController.m; sourceTree = "<group>"; };
+		1F9CB9161E333F89006E75CE /* ZHGEssenceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHGEssenceController.h; sourceTree = "<group>"; };
+		1F9CB9171E333F89006E75CE /* ZHGEssenceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHGEssenceController.m; sourceTree = "<group>"; };
+		1F9CB9181E333F89006E75CE /* ZHGMeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHGMeController.h; sourceTree = "<group>"; };
+		1F9CB9191E333F89006E75CE /* ZHGMeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHGMeController.m; sourceTree = "<group>"; };
+		1F9CB91A1E333F89006E75CE /* ZHGNewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHGNewController.h; sourceTree = "<group>"; };
+		1F9CB91B1E333F89006E75CE /* ZHGNewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHGNewController.m; sourceTree = "<group>"; };
+		1F9CB91C1E333F89006E75CE /* ZHGTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHGTabBarController.h; sourceTree = "<group>"; };
+		1F9CB91D1E333F89006E75CE /* ZHGTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHGTabBarController.m; sourceTree = "<group>"; };
+		1F9CB91E1E333F89006E75CE /* ZHGTrendController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHGTrendController.h; sourceTree = "<group>"; };
+		1F9CB91F1E333F89006E75CE /* ZHGTrendController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHGTrendController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,10 +109,9 @@
 		1F99C4BF1E3257CF00CCFD75 /* 百思不得姐 */ = {
 			isa = PBXGroup;
 			children = (
+				1F9CB9151E333F13006E75CE /* TabBarController */,
 				1F99C4C31E3257CF00CCFD75 /* AppDelegate.h */,
 				1F99C4C41E3257CF00CCFD75 /* AppDelegate.m */,
-				1F99C4F31E325F9E00CCFD75 /* ZHGTabBarController.h */,
-				1F99C4F41E325F9E00CCFD75 /* ZHGTabBarController.m */,
 				1F99C4CC1E3257CF00CCFD75 /* Assets.xcassets */,
 				1F99C4D11E3257CF00CCFD75 /* Info.plist */,
 				1F99C4C01E3257CF00CCFD75 /* Supporting Files */,
@@ -132,6 +143,23 @@
 				1F99C4E71E3257CF00CCFD75 /* Info.plist */,
 			);
 			path = "百思不得姐UITests";
+			sourceTree = "<group>";
+		};
+		1F9CB9151E333F13006E75CE /* TabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				1F9CB9161E333F89006E75CE /* ZHGEssenceController.h */,
+				1F9CB9171E333F89006E75CE /* ZHGEssenceController.m */,
+				1F9CB9181E333F89006E75CE /* ZHGMeController.h */,
+				1F9CB9191E333F89006E75CE /* ZHGMeController.m */,
+				1F9CB91A1E333F89006E75CE /* ZHGNewController.h */,
+				1F9CB91B1E333F89006E75CE /* ZHGNewController.m */,
+				1F9CB91E1E333F89006E75CE /* ZHGTrendController.h */,
+				1F9CB91F1E333F89006E75CE /* ZHGTrendController.m */,
+				1F9CB91C1E333F89006E75CE /* ZHGTabBarController.h */,
+				1F9CB91D1E333F89006E75CE /* ZHGTabBarController.m */,
+			);
+			path = TabBarController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,8 +296,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F99C4C51E3257CF00CCFD75 /* AppDelegate.m in Sources */,
-				1F99C4F51E325F9E00CCFD75 /* ZHGTabBarController.m in Sources */,
+				1F9CB9231E333F89006E75CE /* ZHGTabBarController.m in Sources */,
+				1F9CB9241E333F89006E75CE /* ZHGTrendController.m in Sources */,
+				1F9CB9201E333F89006E75CE /* ZHGEssenceController.m in Sources */,
 				1F99C4C21E3257CF00CCFD75 /* main.m in Sources */,
+				1F9CB9211E333F89006E75CE /* ZHGMeController.m in Sources */,
+				1F9CB9221E333F89006E75CE /* ZHGNewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -488,6 +520,7 @@
 				1F99C4EC1E3257CF00CCFD75 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1F99C4ED1E3257CF00CCFD75 /* Build configuration list for PBXNativeTarget "百思不得姐Tests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +529,7 @@
 				1F99C4EF1E3257CF00CCFD75 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1F99C4F01E3257CF00CCFD75 /* Build configuration list for PBXNativeTarget "百思不得姐UITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +538,7 @@
 				1F99C4F21E3257CF00CCFD75 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
