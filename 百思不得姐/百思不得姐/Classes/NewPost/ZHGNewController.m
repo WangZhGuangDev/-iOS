@@ -21,6 +21,7 @@
     
 
     self.navigationItem.leftBarButtonItem = [UIBarButtonItem itemWithTitle:nil Image:@"MainTagSubIcon" hightImage:@"MainTagSubIconClick" target:self action:@selector(newItemAction)];
+    self.view.backgroundColor = GLOBALCOLOR;
 }
 
 -(void)newItemAction {

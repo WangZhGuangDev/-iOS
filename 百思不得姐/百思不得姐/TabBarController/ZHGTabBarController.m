@@ -12,6 +12,7 @@
 #import "ZHGTrendController.h"
 #import "ZHGMeController.h"
 #import "ZHGTabBar.h"
+#import "ZHGNavigationVC.h"
 
 @interface ZHGTabBarController ()
 
@@ -62,18 +63,21 @@
     [self setValue:[[ZHGTabBar alloc] init] forKey:@"tabBar"];
     
     
+    
+    
 }
 
 -(void)initChildContrller:(UIViewController *)childContrller title:(NSString *)title imageName:(NSString *)imageName selectImage:(NSString *)selectImage {
     childContrller.tabBarItem.title = title;
     childContrller.tabBarItem.image = [UIImage imageNamed:imageName];
     childContrller.tabBarItem.selectedImage = [UIImage imageNamed:selectImage];
-    childContrller.view.backgroundColor = [UIColor colorWithRed:arc4random_uniform(100)/100.0 green:arc4random_uniform(100)/100.0 blue:arc4random_uniform(100)/100.0 alpha:1.0];
-//    [self addChildViewController:childContrller];
+
     
-    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:childContrller];
+    ZHGNavigationVC *nav = [[ZHGNavigationVC alloc] initWithRootViewController:childContrller];
     childContrller.navigationItem.title = title;
-//    nav.navigationItem.title = title;
+    [nav.navigationBar setBackgroundImage:[UIImage imageNamed:@"navigationbarBackgroundWhite"] forBarMetrics:(UIBarMetricsDefault)];
+    //和上一句代码一样，设置导航栏背景图，但下面这句是设置全局所有的导航栏的背景图，而上一句只是摄者nav这个控制器的导航栏的背景图
+//    [[UINavigationBar appearance] setBackgroundImage:[UIImage imageNamed:@"navigationbarBackgroundWhite"] forBarMetrics:(UIBarMetricsDefault)];
     [self addChildViewController:nav];
     
 }

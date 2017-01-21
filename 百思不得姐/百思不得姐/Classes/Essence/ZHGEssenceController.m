@@ -21,10 +21,18 @@
     
     
     self.navigationItem.leftBarButtonItem = [UIBarButtonItem itemWithTitle:nil Image:@"MainTagSubIcon" hightImage:@"MainTagSubIconClick" target:self action:@selector(mainItemAction)];
+    self.view.backgroundColor = GLOBALCOLOR;
+    
 }
 
 -(void)mainItemAction {
     ZHGLog(@"%s",__func__);
+}
+
+-(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    UIViewController *vc = [[UIViewController alloc] init];
+    vc.view.backgroundColor = [UIColor cyanColor];
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 @end

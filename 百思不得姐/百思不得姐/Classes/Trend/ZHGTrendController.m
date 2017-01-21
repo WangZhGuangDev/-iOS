@@ -21,6 +21,7 @@
     
     
     self.navigationItem.leftBarButtonItem = [UIBarButtonItem itemWithTitle:nil Image:@"friendsRecommentIcon" hightImage:@"friendsRecommentIcon" target:self action:@selector(friendsRecommentAction)];
+    self.view.backgroundColor = GLOBALCOLOR;
 }
 
 -(void)friendsRecommentAction {

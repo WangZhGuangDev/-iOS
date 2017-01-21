@@ -20,4 +20,10 @@
 #define ZHGLog(...)
 #endif
 
+
+#define RGBCOLOR(r,g,b) [UIColor colorWithRed:(r)/255.0 green:(r)/255.0 blue:(r)/255.0 alpha:1.0]
+
+#define GLOBALCOLOR RGBCOLOR(223,223,223)
+
+
 #endif /* PrefixHeader_pch */

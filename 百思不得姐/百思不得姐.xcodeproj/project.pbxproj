@@ -20,6 +20,7 @@
 		1F9CB9531E336E0D006E75CE /* ZHGNewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9CB9521E336E0D006E75CE /* ZHGNewController.m */; };
 		1F9CB9561E336E18006E75CE /* ZHGTrendController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9CB9551E336E18006E75CE /* ZHGTrendController.m */; };
 		1F9CB95B1E336E2B006E75CE /* ZHGMeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9CB9581E336E2B006E75CE /* ZHGMeController.m */; };
+		1F9CB95F1E337C65006E75CE /* ZHGNavigationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9CB95E1E337C65006E75CE /* ZHGNavigationVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,8 @@
 		1F9CB9551E336E18006E75CE /* ZHGTrendController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHGTrendController.m; sourceTree = "<group>"; };
 		1F9CB9571E336E2B006E75CE /* ZHGMeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHGMeController.h; sourceTree = "<group>"; };
 		1F9CB9581E336E2B006E75CE /* ZHGMeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHGMeController.m; sourceTree = "<group>"; };
+		1F9CB95D1E337C65006E75CE /* ZHGNavigationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHGNavigationVC.h; sourceTree = "<group>"; };
+		1F9CB95E1E337C65006E75CE /* ZHGNavigationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHGNavigationVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,6 +168,8 @@
 				1F9CB91D1E333F89006E75CE /* ZHGTabBarController.m */,
 				1F9CB92B1E3344CA006E75CE /* ZHGTabBar.h */,
 				1F9CB92C1E3344CA006E75CE /* ZHGTabBar.m */,
+				1F9CB95D1E337C65006E75CE /* ZHGNavigationVC.h */,
+				1F9CB95E1E337C65006E75CE /* ZHGNavigationVC.m */,
 			);
 			path = TabBarController;
 			sourceTree = "<group>";
@@ -500,6 +505,7 @@
 				1F9CB9531E336E0D006E75CE /* ZHGNewController.m in Sources */,
 				1F99C4C51E3257CF00CCFD75 /* AppDelegate.m in Sources */,
 				1F9CB9231E333F89006E75CE /* ZHGTabBarController.m in Sources */,
+				1F9CB95F1E337C65006E75CE /* ZHGNavigationVC.m in Sources */,
 				1F9CB92D1E3344CA006E75CE /* ZHGTabBar.m in Sources */,
 				1F99C4C21E3257CF00CCFD75 /* main.m in Sources */,
 				1F9CB9311E3350C2006E75CE /* UIView+ZHGViewCategory.m in Sources */,
