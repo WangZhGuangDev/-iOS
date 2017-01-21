@@ -17,17 +17,14 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    self.navigationItem.title = @"我的关注";
     
+    
+    self.navigationItem.leftBarButtonItem = [UIBarButtonItem itemWithTitle:nil Image:@"friendsRecommentIcon" hightImage:@"friendsRecommentIcon" target:self action:@selector(friendsRecommentAction)];
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+-(void)friendsRecommentAction {
+    ZHGLog(@"%s",__func__);
 }
-*/
 
 @end

@@ -19,6 +19,7 @@
 		1F9CB9241E333F89006E75CE /* ZHGTrendController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9CB91F1E333F89006E75CE /* ZHGTrendController.m */; };
 		1F9CB92D1E3344CA006E75CE /* ZHGTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9CB92C1E3344CA006E75CE /* ZHGTabBar.m */; };
 		1F9CB9311E3350C2006E75CE /* UIView+ZHGViewCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9CB9301E3350C2006E75CE /* UIView+ZHGViewCategory.m */; };
+		1F9CB9361E3365E8006E75CE /* UIBarButtonItem+ZHGBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9CB9351E3365E8006E75CE /* UIBarButtonItem+ZHGBarButtonItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +67,8 @@
 		1F9CB92F1E3350C2006E75CE /* UIView+ZHGViewCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ZHGViewCategory.h"; sourceTree = "<group>"; };
 		1F9CB9301E3350C2006E75CE /* UIView+ZHGViewCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ZHGViewCategory.m"; sourceTree = "<group>"; };
 		1F9CB9331E33529D006E75CE /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		1F9CB9341E3365E8006E75CE /* UIBarButtonItem+ZHGBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+ZHGBarButtonItem.h"; sourceTree = "<group>"; };
+		1F9CB9351E3365E8006E75CE /* UIBarButtonItem+ZHGBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+ZHGBarButtonItem.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,12 +162,12 @@
 			children = (
 				1F9CB9161E333F89006E75CE /* ZHGEssenceController.h */,
 				1F9CB9171E333F89006E75CE /* ZHGEssenceController.m */,
-				1F9CB9181E333F89006E75CE /* ZHGMeController.h */,
-				1F9CB9191E333F89006E75CE /* ZHGMeController.m */,
 				1F9CB91A1E333F89006E75CE /* ZHGNewController.h */,
 				1F9CB91B1E333F89006E75CE /* ZHGNewController.m */,
 				1F9CB91E1E333F89006E75CE /* ZHGTrendController.h */,
 				1F9CB91F1E333F89006E75CE /* ZHGTrendController.m */,
+				1F9CB9181E333F89006E75CE /* ZHGMeController.h */,
+				1F9CB9191E333F89006E75CE /* ZHGMeController.m */,
 				1F9CB91C1E333F89006E75CE /* ZHGTabBarController.h */,
 				1F9CB91D1E333F89006E75CE /* ZHGTabBarController.m */,
 				1F9CB92B1E3344CA006E75CE /* ZHGTabBar.h */,
@@ -178,6 +181,8 @@
 			children = (
 				1F9CB92F1E3350C2006E75CE /* UIView+ZHGViewCategory.h */,
 				1F9CB9301E3350C2006E75CE /* UIView+ZHGViewCategory.m */,
+				1F9CB9341E3365E8006E75CE /* UIBarButtonItem+ZHGBarButtonItem.h */,
+				1F9CB9351E3365E8006E75CE /* UIBarButtonItem+ZHGBarButtonItem.m */,
 			);
 			path = UIViewCategory;
 			sourceTree = "<group>";
@@ -330,6 +335,7 @@
 				1F9CB9201E333F89006E75CE /* ZHGEssenceController.m in Sources */,
 				1F99C4C21E3257CF00CCFD75 /* main.m in Sources */,
 				1F9CB9311E3350C2006E75CE /* UIView+ZHGViewCategory.m in Sources */,
+				1F9CB9361E3365E8006E75CE /* UIBarButtonItem+ZHGBarButtonItem.m in Sources */,
 				1F9CB9211E333F89006E75CE /* ZHGMeController.m in Sources */,
 				1F9CB9221E333F89006E75CE /* ZHGNewController.m in Sources */,
 			);

@@ -10,6 +10,14 @@
 #define PrefixHeader_pch
 
 #import "UIView+ZHGViewCategory.h"
+#import "UIBarButtonItem+ZHGBarButtonItem.h"
 
+//调试阶段,用 ZHGLog 代替 NSLog
+#ifdef DEBUG
+#define ZHGLog(...) NSLog(__VA_ARGS__)
+#else
+//发布阶段，为空
+#define ZHGLog(...)
+#endif
 
 #endif /* PrefixHeader_pch */

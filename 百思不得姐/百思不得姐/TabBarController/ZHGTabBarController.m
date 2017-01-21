@@ -50,7 +50,7 @@
     [item setTitleTextAttributes:selectAttDic forState:(UIControlStateSelected)];
     
     
-    [self initChildContrller:[[ZHGTrendController alloc] init] title:@"精华" imageName:@"tabBar_essence_icon" selectImage:@"tabBar_essence_click_icon"];
+    [self initChildContrller:[[ZHGEssenceController alloc] init] title:@"精华" imageName:@"tabBar_essence_icon" selectImage:@"tabBar_essence_click_icon"];
     [self initChildContrller:[[ZHGNewController alloc] init] title:@"新帖" imageName:@"tabBar_new_icon" selectImage:@"tabBar_new_click_icon"];
     [self initChildContrller:[[ZHGTrendController alloc] init] title:@"关注" imageName:@"tabBar_friendTrends_icon" selectImage:@"tabBar_friendTrends_click_icon"];
     [self initChildContrller:[[ZHGMeController alloc] init] title:@"我" imageName:@"tabBar_me_icon" selectImage:@"tabBar_me_click_icon"];
@@ -58,7 +58,7 @@
     
     
 //    self.tabBar = [[ZHGTabBar alloc] init];
-    //利用KVC设置自定义tabBar，KVC可以直接访问成员变量
+    //利用KVC设置自定义tabBar，KVC可以直接访问成员变量，适用于readOnly的属性
     [self setValue:[[ZHGTabBar alloc] init] forKey:@"tabBar"];
     
     
@@ -69,8 +69,13 @@
     childContrller.tabBarItem.image = [UIImage imageNamed:imageName];
     childContrller.tabBarItem.selectedImage = [UIImage imageNamed:selectImage];
     childContrller.view.backgroundColor = [UIColor colorWithRed:arc4random_uniform(100)/100.0 green:arc4random_uniform(100)/100.0 blue:arc4random_uniform(100)/100.0 alpha:1.0];
-    [self addChildViewController:childContrller];
+//    [self addChildViewController:childContrller];
+    
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:childContrller];
+    childContrller.navigationItem.title = title;
+//    nav.navigationItem.title = title;
+    [self addChildViewController:nav];
+    
 }
-
 
 @end

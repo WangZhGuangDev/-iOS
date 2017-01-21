@@ -34,8 +34,9 @@
     CGFloat width = self.width;
     CGFloat height = self.height;
     
-    self.publicButton.width = self.publicButton.currentBackgroundImage.size.width;
-    self.publicButton.height = self.publicButton.currentBackgroundImage.size.height;
+//    self.publicButton.width = self.publicButton.currentBackgroundImage.size.width;
+//    self.publicButton.height = self.publicButton.currentBackgroundImage.size.height;
+    self.publicButton.size = self.publicButton.currentBackgroundImage.size;
     self.publicButton.center = CGPointMake(width * 0.5, height * 0.5);
     
     CGFloat buttonY = 0;
