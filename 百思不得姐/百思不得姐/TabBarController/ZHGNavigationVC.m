@@ -14,10 +14,27 @@
 
 @implementation ZHGNavigationVC
 
+/*
+ *  当第一次使用这个类的时候回调用一次
+ */
++ (void)initialize {
+    
+    //所有的导航栏都会设置
+//    UINavigationBar *allBar = [UINavigationBar appearance];
+//    [allBar setBackgroundImage:[UIImage imageNamed:@"navigationbarBackgroundWhite"] forBarMetrics:(UIBarMetricsDefault)];
+    //当导航栏用在ZHGNavigationVC时才会生效
+    UINavigationBar *bar = [UINavigationBar appearanceWhenContainedIn:[self class], nil];
+    [bar setBackgroundImage:[UIImage imageNamed:@"navigationbarBackgroundWhite"] forBarMetrics:(UIBarMetricsDefault)];
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-
+    //拿到当前的导航栏控制器
+//    [self.navigationBar setBackgroundImage:[UIImage imageNamed:@"navigationbarBackgroundWhite"] forBarMetrics:(UIBarMetricsDefault)];
+    
+    //和上一句代码一样，设置导航栏背景图，但下面这句是设置全局所有的导航栏的背景图，而上一句只是摄者ZHGNavigationVC这个控制器的导航栏的背景图
+    //    [[UINavigationBar appearance] setBackgroundImage:[UIImage imageNamed:@"navigationbarBackgroundWhite"] forBarMetrics:(UIBarMetricsDefault)];
     
 }
 

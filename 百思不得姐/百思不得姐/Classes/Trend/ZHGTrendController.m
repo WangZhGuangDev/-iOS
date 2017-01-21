@@ -17,6 +17,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    /***
+     *  在xib或者storyboard里面给label换行：按住option键的同时敲回车
+     ***/
+    
+    
     self.navigationItem.title = @"我的关注";
     
     

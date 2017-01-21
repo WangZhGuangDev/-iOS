@@ -29,10 +29,4 @@
     ZHGLog(@"%s",__func__);
 }
 
--(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
-    UIViewController *vc = [[UIViewController alloc] init];
-    vc.view.backgroundColor = [UIColor cyanColor];
-    [self.navigationController pushViewController:vc animated:YES];
-}
-
 @end
