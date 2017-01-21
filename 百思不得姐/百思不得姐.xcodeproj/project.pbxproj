@@ -17,6 +17,7 @@
 		1F9CB9221E333F89006E75CE /* ZHGNewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9CB91B1E333F89006E75CE /* ZHGNewController.m */; };
 		1F9CB9231E333F89006E75CE /* ZHGTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9CB91D1E333F89006E75CE /* ZHGTabBarController.m */; };
 		1F9CB9241E333F89006E75CE /* ZHGTrendController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9CB91F1E333F89006E75CE /* ZHGTrendController.m */; };
+		1F9CB92D1E3344CA006E75CE /* ZHGTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9CB92C1E3344CA006E75CE /* ZHGTabBar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,8 @@
 		1F9CB91D1E333F89006E75CE /* ZHGTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHGTabBarController.m; sourceTree = "<group>"; };
 		1F9CB91E1E333F89006E75CE /* ZHGTrendController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHGTrendController.h; sourceTree = "<group>"; };
 		1F9CB91F1E333F89006E75CE /* ZHGTrendController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHGTrendController.m; sourceTree = "<group>"; };
+		1F9CB92B1E3344CA006E75CE /* ZHGTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHGTabBar.h; sourceTree = "<group>"; };
+		1F9CB92C1E3344CA006E75CE /* ZHGTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHGTabBar.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +161,8 @@
 				1F9CB91F1E333F89006E75CE /* ZHGTrendController.m */,
 				1F9CB91C1E333F89006E75CE /* ZHGTabBarController.h */,
 				1F9CB91D1E333F89006E75CE /* ZHGTabBarController.m */,
+				1F9CB92B1E3344CA006E75CE /* ZHGTabBar.h */,
+				1F9CB92C1E3344CA006E75CE /* ZHGTabBar.m */,
 			);
 			path = TabBarController;
 			sourceTree = "<group>";
@@ -298,6 +303,7 @@
 				1F99C4C51E3257CF00CCFD75 /* AppDelegate.m in Sources */,
 				1F9CB9231E333F89006E75CE /* ZHGTabBarController.m in Sources */,
 				1F9CB9241E333F89006E75CE /* ZHGTrendController.m in Sources */,
+				1F9CB92D1E3344CA006E75CE /* ZHGTabBar.m in Sources */,
 				1F9CB9201E333F89006E75CE /* ZHGEssenceController.m in Sources */,
 				1F99C4C21E3257CF00CCFD75 /* main.m in Sources */,
 				1F9CB9211E333F89006E75CE /* ZHGMeController.m in Sources */,

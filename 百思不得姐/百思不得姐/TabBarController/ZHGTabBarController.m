@@ -11,7 +11,7 @@
 #import "ZHGNewController.h"
 #import "ZHGTrendController.h"
 #import "ZHGMeController.h"
-
+#import "ZHGTabBar.h"
 
 @interface ZHGTabBarController ()
 
@@ -54,6 +54,13 @@
     [self initChildContrller:[[ZHGNewController alloc] init] title:@"新帖" imageName:@"tabBar_new_icon" selectImage:@"tabBar_new_click_icon"];
     [self initChildContrller:[[ZHGTrendController alloc] init] title:@"关注" imageName:@"tabBar_friendTrends_icon" selectImage:@"tabBar_friendTrends_click_icon"];
     [self initChildContrller:[[ZHGMeController alloc] init] title:@"我" imageName:@"tabBar_me_icon" selectImage:@"tabBar_me_click_icon"];
+    
+    
+    
+//    self.tabBar = [[ZHGTabBar alloc] init];
+    //利用KVC设置自定义tabBar，KVC可以直接访问成员变量
+    [self setValue:[[ZHGTabBar alloc] init] forKey:@"tabBar"];
+    
     
 }
 
