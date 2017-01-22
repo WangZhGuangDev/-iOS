@@ -23,6 +23,13 @@
 		1F9CB95F1E337C65006E75CE /* ZHGNavigationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9CB95E1E337C65006E75CE /* ZHGNavigationVC.m */; };
 		1F9CB9631E339DC2006E75CE /* ZHGTrendController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F9CB9621E339DC2006E75CE /* ZHGTrendController.xib */; };
 		1FB41D611E34FFB60038AEDC /* SDWebImage in Resources */ = {isa = PBXBuildFile; fileRef = 1FB41D601E34FFB60038AEDC /* SDWebImage */; };
+		1FB41D631E35012F0038AEDC /* SVProgressHUD in Resources */ = {isa = PBXBuildFile; fileRef = 1FB41D621E35012F0038AEDC /* SVProgressHUD */; };
+		1FB41D651E35015D0038AEDC /* MJRefresh in Resources */ = {isa = PBXBuildFile; fileRef = 1FB41D641E35015D0038AEDC /* MJRefresh */; };
+		1FB41D671E3501670038AEDC /* MJExtension in Resources */ = {isa = PBXBuildFile; fileRef = 1FB41D661E3501670038AEDC /* MJExtension */; };
+		1FB41D691E3501790038AEDC /* Masonry in Resources */ = {isa = PBXBuildFile; fileRef = 1FB41D681E3501790038AEDC /* Masonry */; };
+		1FB41D6B1E35018D0038AEDC /* M13ProgressSuite in Resources */ = {isa = PBXBuildFile; fileRef = 1FB41D6A1E35018D0038AEDC /* M13ProgressSuite */; };
+		1FB41D6E1E3503B70038AEDC /* AFNetworking in Resources */ = {isa = PBXBuildFile; fileRef = 1FB41D6C1E3503B70038AEDC /* AFNetworking */; };
+		1FB41D6F1E3503B70038AEDC /* UIKit+AFNetworking in Resources */ = {isa = PBXBuildFile; fileRef = 1FB41D6D1E3503B70038AEDC /* UIKit+AFNetworking */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,6 +83,13 @@
 		1F9CB95E1E337C65006E75CE /* ZHGNavigationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHGNavigationVC.m; sourceTree = "<group>"; };
 		1F9CB9621E339DC2006E75CE /* ZHGTrendController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZHGTrendController.xib; sourceTree = "<group>"; };
 		1FB41D601E34FFB60038AEDC /* SDWebImage */ = {isa = PBXFileReference; lastKnownFileType = folder; path = SDWebImage; sourceTree = "<group>"; };
+		1FB41D621E35012F0038AEDC /* SVProgressHUD */ = {isa = PBXFileReference; lastKnownFileType = folder; path = SVProgressHUD; sourceTree = "<group>"; };
+		1FB41D641E35015D0038AEDC /* MJRefresh */ = {isa = PBXFileReference; lastKnownFileType = folder; path = MJRefresh; sourceTree = "<group>"; };
+		1FB41D661E3501670038AEDC /* MJExtension */ = {isa = PBXFileReference; lastKnownFileType = folder; path = MJExtension; sourceTree = "<group>"; };
+		1FB41D681E3501790038AEDC /* Masonry */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Masonry; sourceTree = "<group>"; };
+		1FB41D6A1E35018D0038AEDC /* M13ProgressSuite */ = {isa = PBXFileReference; lastKnownFileType = folder; path = M13ProgressSuite; sourceTree = "<group>"; };
+		1FB41D6C1E3503B70038AEDC /* AFNetworking */ = {isa = PBXFileReference; lastKnownFileType = folder; path = AFNetworking; sourceTree = "<group>"; };
+		1FB41D6D1E3503B70038AEDC /* UIKit+AFNetworking */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "UIKit+AFNetworking"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -377,6 +391,13 @@
 		1FB41D5F1E34FEE90038AEDC /* ThirdFoundation */ = {
 			isa = PBXGroup;
 			children = (
+				1FB41D6C1E3503B70038AEDC /* AFNetworking */,
+				1FB41D6D1E3503B70038AEDC /* UIKit+AFNetworking */,
+				1FB41D6A1E35018D0038AEDC /* M13ProgressSuite */,
+				1FB41D681E3501790038AEDC /* Masonry */,
+				1FB41D661E3501670038AEDC /* MJExtension */,
+				1FB41D641E35015D0038AEDC /* MJRefresh */,
+				1FB41D621E35012F0038AEDC /* SVProgressHUD */,
 				1FB41D601E34FFB60038AEDC /* SDWebImage */,
 			);
 			path = ThirdFoundation;
@@ -490,9 +511,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FB41D6B1E35018D0038AEDC /* M13ProgressSuite in Resources */,
+				1FB41D651E35015D0038AEDC /* MJRefresh in Resources */,
+				1FB41D6F1E3503B70038AEDC /* UIKit+AFNetworking in Resources */,
+				1FB41D631E35012F0038AEDC /* SVProgressHUD in Resources */,
 				1FB41D611E34FFB60038AEDC /* SDWebImage in Resources */,
+				1FB41D691E3501790038AEDC /* Masonry in Resources */,
 				1F99C4CD1E3257CF00CCFD75 /* Assets.xcassets in Resources */,
 				1F9CB9631E339DC2006E75CE /* ZHGTrendController.xib in Resources */,
+				1FB41D671E3501670038AEDC /* MJExtension in Resources */,
+				1FB41D6E1E3503B70038AEDC /* AFNetworking in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
