@@ -22,6 +22,7 @@
 		1F9CB95B1E336E2B006E75CE /* ZHGMeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9CB9581E336E2B006E75CE /* ZHGMeController.m */; };
 		1F9CB95F1E337C65006E75CE /* ZHGNavigationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9CB95E1E337C65006E75CE /* ZHGNavigationVC.m */; };
 		1F9CB9631E339DC2006E75CE /* ZHGTrendController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F9CB9621E339DC2006E75CE /* ZHGTrendController.xib */; };
+		1FB41D611E34FFB60038AEDC /* SDWebImage in Resources */ = {isa = PBXBuildFile; fileRef = 1FB41D601E34FFB60038AEDC /* SDWebImage */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +75,7 @@
 		1F9CB95D1E337C65006E75CE /* ZHGNavigationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHGNavigationVC.h; sourceTree = "<group>"; };
 		1F9CB95E1E337C65006E75CE /* ZHGNavigationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHGNavigationVC.m; sourceTree = "<group>"; };
 		1F9CB9621E339DC2006E75CE /* ZHGTrendController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZHGTrendController.xib; sourceTree = "<group>"; };
+		1FB41D601E34FFB60038AEDC /* SDWebImage */ = {isa = PBXFileReference; lastKnownFileType = folder; path = SDWebImage; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +126,7 @@
 		1F99C4BF1E3257CF00CCFD75 /* 百思不得姐 */ = {
 			isa = PBXGroup;
 			children = (
+				1FB41D5F1E34FEE90038AEDC /* ThirdFoundation */,
 				1F9CB9371E336B5E006E75CE /* Classes */,
 				1F9CB9321E3351E3006E75CE /* PublicClass */,
 				1F9CB92E1E335074006E75CE /* UIViewCategory */,
@@ -371,6 +374,14 @@
 			name = Cotroller;
 			sourceTree = "<group>";
 		};
+		1FB41D5F1E34FEE90038AEDC /* ThirdFoundation */ = {
+			isa = PBXGroup;
+			children = (
+				1FB41D601E34FFB60038AEDC /* SDWebImage */,
+			);
+			path = ThirdFoundation;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -479,6 +490,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FB41D611E34FFB60038AEDC /* SDWebImage in Resources */,
 				1F99C4CD1E3257CF00CCFD75 /* Assets.xcassets in Resources */,
 				1F9CB9631E339DC2006E75CE /* ZHGTrendController.xib in Resources */,
 			);
